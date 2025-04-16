@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcoordinate_transformer_lib.a CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o
+/usr/bin/ranlib libcoordinate_transformer_lib.a

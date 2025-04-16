@@ -1,0 +1,10 @@
+transforms:
+  - parent_frame: world
+    child_frame: robot_base
+    translation: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0, 1.0]
+
+bounds:
+  robot_base:
+    min: [-1.0, -1.0, 0.0]
+    max: [ 1.0,  1.0, 1.5]

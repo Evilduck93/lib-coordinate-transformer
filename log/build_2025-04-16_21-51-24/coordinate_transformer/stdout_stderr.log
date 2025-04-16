@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libcoordinate_transformer_lib.a[0m
+[100%] Built target coordinate_transformer_lib
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/lib/libcoordinate_transformer_lib.a
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/include
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer/coordinate_transformer.hpp
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config/transforms.yaml
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/package_run_dependencies/coordinate_transformer
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/parent_prefix_path/coordinate_transformer
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.dsv
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/packages/coordinate_transformer
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig.cmake
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.xml

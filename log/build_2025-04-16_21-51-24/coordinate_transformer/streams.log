@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/coordinate_transformer -- -j8 -l8
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o[0m
+[4.853s] [100%] [32m[1mLinking CXX static library libcoordinate_transformer_lib.a[0m
+[5.017s] [100%] Built target coordinate_transformer_lib
+[5.032s] Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/coordinate_transformer -- -j8 -l8
+[5.046s] Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/coordinate_transformer
+[5.057s] -- Install configuration: ""
+[5.058s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/lib/libcoordinate_transformer_lib.a
+[5.058s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/include
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer/coordinate_transformer.hpp
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config/transforms.yaml
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/package_run_dependencies/coordinate_transformer
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/parent_prefix_path/coordinate_transformer
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.sh
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.dsv
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.sh
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.dsv
+[5.059s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.bash
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.sh
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.zsh
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.dsv
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.dsv
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/packages/coordinate_transformer
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig.cmake
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig-version.cmake
+[5.060s] -- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.xml
+[5.062s] Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/coordinate_transformer

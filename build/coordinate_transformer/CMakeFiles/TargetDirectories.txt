@@ -1,0 +1,10 @@
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/coordinate_transformer_uninstall.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/coordinate_transformer_lib.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/test.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/install.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/install/local.dir
+/home/user/ros2_ws/build/coordinate_transformer/CMakeFiles/install/strip.dir
