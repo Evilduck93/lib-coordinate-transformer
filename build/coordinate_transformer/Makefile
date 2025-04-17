@@ -210,6 +210,45 @@ coordinate_transformer_lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_transformer_lib.dir/build.make CMakeFiles/coordinate_transformer_lib.dir/build
 .PHONY : coordinate_transformer_lib/fast
 
+#=============================================================================
+# Target rules for targets named test_coordinate_transformer
+
+# Build rule for target.
+test_coordinate_transformer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_coordinate_transformer
+.PHONY : test_coordinate_transformer
+
+# fast build rule for target.
+test_coordinate_transformer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_coordinate_transformer.dir/build.make CMakeFiles/test_coordinate_transformer.dir/build
+.PHONY : test_coordinate_transformer/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/coordinate_transformer.o: src/coordinate_transformer.cpp.o
 .PHONY : src/coordinate_transformer.o
 
@@ -234,6 +273,30 @@ src/coordinate_transformer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coordinate_transformer_lib.dir/build.make CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.s
 .PHONY : src/coordinate_transformer.cpp.s
 
+test/test_coordinate_transformer.o: test/test_coordinate_transformer.cpp.o
+.PHONY : test/test_coordinate_transformer.o
+
+# target to build an object file
+test/test_coordinate_transformer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_coordinate_transformer.dir/build.make CMakeFiles/test_coordinate_transformer.dir/test/test_coordinate_transformer.cpp.o
+.PHONY : test/test_coordinate_transformer.cpp.o
+
+test/test_coordinate_transformer.i: test/test_coordinate_transformer.cpp.i
+.PHONY : test/test_coordinate_transformer.i
+
+# target to preprocess a source file
+test/test_coordinate_transformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_coordinate_transformer.dir/build.make CMakeFiles/test_coordinate_transformer.dir/test/test_coordinate_transformer.cpp.i
+.PHONY : test/test_coordinate_transformer.cpp.i
+
+test/test_coordinate_transformer.s: test/test_coordinate_transformer.cpp.s
+.PHONY : test/test_coordinate_transformer.s
+
+# target to generate assembly for a file
+test/test_coordinate_transformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_coordinate_transformer.dir/build.make CMakeFiles/test_coordinate_transformer.dir/test/test_coordinate_transformer.cpp.s
+.PHONY : test/test_coordinate_transformer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +313,15 @@ help:
 	@echo "... coordinate_transformer_uninstall"
 	@echo "... uninstall"
 	@echo "... coordinate_transformer_lib"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... test_coordinate_transformer"
 	@echo "... src/coordinate_transformer.o"
 	@echo "... src/coordinate_transformer.i"
 	@echo "... src/coordinate_transformer.s"
+	@echo "... test/test_coordinate_transformer.o"
+	@echo "... test/test_coordinate_transformer.i"
+	@echo "... test/test_coordinate_transformer.s"
 .PHONY : help
 
 

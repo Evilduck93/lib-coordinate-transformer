@@ -1,0 +1,682 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (coordinate_transformer) JobQueued: {'identifier': 'coordinate_transformer', 'dependencies': OrderedDict({'coordinate_transformer': '/home/user/ros2_ws/install/coordinate_transformer'})}
+[0.000162] (coordinate_transformer) JobStarted: {'identifier': 'coordinate_transformer'}
+[0.021392] (coordinate_transformer) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process', '-V'], 'cwd': '/home/user/ros2_ws/build/coordinate_transformer', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/ws_moveit/install/robotiq_driver/lib:/home/user/ws_moveit/install/serial/lib:/home/user/ws_moveit/install/moveit_visual_tools/lib:/home/user/ws_moveit/install/rviz_visual_tools/lib:/home/user/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/user/ws_moveit/install/moveit_task_constructor_demo/lib:/home/user/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/user/ws_moveit/install/moveit_task_constructor_core/lib:/home/user/ws_moveit/install/rviz_marker_tools/lib:/home/user/ws_moveit/install/robotiq_controllers/lib:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/user/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/user/ws_moveit/install/picknik_twist_controller/lib:/home/user/ws_moveit/install/picknik_reset_fault_controller/lib:/home/user/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/user/ws_moveit/install/moveit_ros_control_interface/lib:/home/user/ws_moveit/install/moveit_simple_controller_manager/lib:/home/user/ws_moveit/install/moveit_setup_assistant/lib:/home/user/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/user/ws_moveit/install/moveit_setup_core_plugins/lib:/home/user/ws_moveit/install/moveit_setup_controllers/lib:/home/user/ws_moveit/install/moveit_setup_app_plugins/lib:/home/user/ws_moveit/install/moveit_setup_framework/lib:/home/user/ws_moveit/install/moveit_servo/lib:/home/user/ws_moveit/install/moveit_ros_trajectory_cache/lib:/home/user/ws_moveit/install/moveit_ros_visualization/lib:/home/user/ws_moveit/install/moveit_py/lib:/home/user/ws_moveit/install/moveit_hybrid_planning/lib:/home/user/ws_moveit/install/moveit_ros_planning_interface/lib:/home/user/ws_moveit/install/moveit_ros_benchmarks/lib:/home/user/ws_moveit/install/moveit_ros_warehouse/lib:/home/user/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/user/ws_moveit/install/moveit_ros_perception/lib:/home/user/ws_moveit/install/moveit_ros_move_group/lib:/home/user/ws_moveit/install/moveit_planners_ompl/lib:/home/user/ws_moveit/install/moveit_kinematics/lib:/home/user/ws_moveit/install/moveit_ros_planning/lib:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/user/ws_moveit/install/moveit_planners_stomp/lib:/home/user/ws_moveit/install/moveit_planners_chomp/lib:/home/user/ws_moveit/install/chomp_motion_planner/lib:/home/user/ws_moveit/install/moveit_core/lib:/home/user/ws_moveit/install/moveit_msgs/lib:/home/user/ws_moveit/install/kortex_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/user', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2587', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=03c08adbaba671c003e4901067fff038', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/user/ws_moveit/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/user/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/LT-PROMOBOT-22:@/tmp/.ICE-unix/2587,unix/LT-PROMOBOT-22:/tmp/.ICE-unix/2587', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ef13a3f7_75a4_47a6_8824_1bb8477328a2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ru_RU.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5HMU42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.189', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/coordinate_transformer:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_configs_utils:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/user/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/ros2_ws/build/coordinate_transformer', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=03c08adbaba671c003e4901067fff038', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages:/home/user/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages:/home/user/ws_moveit/install/moveit_py/lib/python3.12/site-packages:/home/user/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/user/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/ros2_ws/install/coordinate_transformer:/home/user/ws_moveit/install/robotiq_hardware_tests:/home/user/ws_moveit/install/robotiq_driver:/home/user/ws_moveit/install/serial:/home/user/ws_moveit/install/moveit2_tutorials:/home/user/ws_moveit/install/moveit_visual_tools:/home/user/ws_moveit/install/rviz_visual_tools:/home/user/ws_moveit/install/moveit_task_constructor_visualization:/home/user/ws_moveit/install/moveit_task_constructor_demo:/home/user/ws_moveit/install/moveit_task_constructor_capabilities:/home/user/ws_moveit/install/moveit_task_constructor_core:/home/user/ws_moveit/install/rviz_marker_tools:/home/user/ws_moveit/install/kortex_bringup:/home/user/ws_moveit/install/kinova_gen3_lite_moveit_config:/home/user/ws_moveit/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/user/ws_moveit/install/kortex_description:/home/user/ws_moveit/install/robotiq_description:/home/user/ws_moveit/install/robotiq_controllers:/home/user/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/user/ws_moveit/install/moveit_runtime:/home/user/ws_moveit/install/moveit:/home/user/ws_moveit/install/moveit_planners:/home/user/ws_moveit/install/pilz_industrial_motion_planner:/home/user/ws_moveit/install/picknik_twist_controller:/home/user/ws_moveit/install/picknik_reset_fault_controller:/home/user/ws_moveit/install/moveit_task_constructor_msgs:/home/user/ws_moveit/install/moveit_ros_control_interface:/home/user/ws_moveit/install/moveit_plugins:/home/user/ws_moveit/install/moveit_simple_controller_manager:/home/user/ws_moveit/install/moveit_setup_assistant:/home/user/ws_moveit/install/moveit_setup_srdf_plugins:/home/user/ws_moveit/install/moveit_setup_core_plugins:/home/user/ws_moveit/install/moveit_setup_controllers:/home/user/ws_moveit/install/moveit_setup_app_plugins:/home/user/ws_moveit/install/moveit_setup_framework:/home/user/ws_moveit/install/moveit_servo:/home/user/ws_moveit/install/moveit_ros_trajectory_cache:/home/user/ws_moveit/install/moveit_ros:/home/user/ws_moveit/install/moveit_ros_visualization:/home/user/ws_moveit/install/moveit_py:/home/user/ws_moveit/install/moveit_hybrid_planning:/home/user/ws_moveit/install/moveit_ros_planning_interface:/home/user/ws_moveit/install/moveit_ros_benchmarks:/home/user/ws_moveit/install/moveit_ros_warehouse:/home/user/ws_moveit/install/moveit_ros_robot_interaction:/home/user/ws_moveit/install/moveit_ros_perception:/home/user/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/user/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/user/ws_moveit/install/moveit_ros_move_group:/home/user/ws_moveit/install/moveit_planners_ompl:/home/user/ws_moveit/install/moveit_kinematics:/home/user/ws_moveit/install/moveit_ros_planning:/home/user/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/user/ws_moveit/install/moveit_resources_prbt_support:/home/user/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/user/ws_moveit/install/moveit_resources:/home/user/ws_moveit/install/moveit_resources_pr2_description:/home/user/ws_moveit/install/moveit_resources_panda_moveit_config:/home/user/ws_moveit/install/dual_arm_panda_moveit_config:/home/user/ws_moveit/install/moveit_resources_panda_description:/home/user/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/user/ws_moveit/install/moveit_resources_fanuc_description:/home/user/ws_moveit/install/moveit_planners_stomp:/home/user/ws_moveit/install/moveit_planners_chomp:/home/user/ws_moveit/install/chomp_motion_planner:/home/user/ws_moveit/install/moveit_core:/home/user/ws_moveit/install/moveit_msgs:/home/user/ws_moveit/install/moveit_common:/home/user/ws_moveit/install/kortex_driver:/home/user/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.030688] (coordinate_transformer) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini\n'}
+[0.030911] (coordinate_transformer) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini\n'}
+[0.031023] (coordinate_transformer) StdoutLine: {'line': b'   Site: LT-PROMOBOT-22\n'}
+[0.031081] (coordinate_transformer) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.031152] (coordinate_transformer) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.031223] (coordinate_transformer) StdoutLine: {'line': b'Create new tag: 20250417-1827 - Experimental\n'}
+[0.031293] (coordinate_transformer) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini\n'}
+[0.031363] (coordinate_transformer) StdoutLine: {'line': b'Parse Config file:/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini\n'}
+[0.031434] (coordinate_transformer) StdoutLine: {'line': b'Test project /home/user/ros2_ws/build/coordinate_transformer\n'}
+[0.031507] (coordinate_transformer) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.031612] (coordinate_transformer) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.031721] (coordinate_transformer) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.031779] (coordinate_transformer) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.031830] (coordinate_transformer) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.031882] (coordinate_transformer) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.031936] (coordinate_transformer) StdoutLine: {'line': b'test 1\n'}
+[0.031990] (coordinate_transformer) StdoutLine: {'line': b'    Start 1: test_coordinate_transformer\n'}
+[0.032044] (coordinate_transformer) StdoutLine: {'line': b'\n'}
+[0.032097] (coordinate_transformer) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml" "--package-name" "coordinate_transformer" "--output-file" "/home/user/ros2_ws/build/coordinate_transformer/ament_cmake_gtest/test_coordinate_transformer.txt" "--command" "/home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer" "--gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml"\n'}
+[0.032155] (coordinate_transformer) StdoutLine: {'line': b'1: Working Directory: /home/user/ros2_ws/build/coordinate_transformer\n'}
+[0.032206] (coordinate_transformer) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.079825] (coordinate_transformer) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/coordinate_transformer':\n"}
+[0.079999] (coordinate_transformer) StdoutLine: {'line': b'1:  - /home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer --gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml\n'}
+[0.096776] (coordinate_transformer) StdoutLine: {'line': b'1: [==========] Running 3 tests from 1 test suite.\n'}
+[0.096930] (coordinate_transformer) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.097008] (coordinate_transformer) StdoutLine: {'line': b'1: [----------] 3 tests from CoordinateTransformerTest\n'}
+[0.097070] (coordinate_transformer) StdoutLine: {'line': b'1: [ RUN      ] CoordinateTransformerTest.DirectTransformWithinBounds\n'}
+[0.099494] (-) TimerEvent: {}
+[0.109165] (coordinate_transformer) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:46: Failure\n'}
+[0.109336] (coordinate_transformer) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[0.109409] (coordinate_transformer) StdoutLine: {'line': b'1:   status\n'}
+[0.109473] (coordinate_transformer) StdoutLine: {'line': b'1:     Which is: 4-byte object <01-00 00-00>\n'}
+[0.109546] (coordinate_transformer) StdoutLine: {'line': b'1:   ResultStatus::SUCCESS\n'}
+[0.109609] (coordinate_transformer) StdoutLine: {'line': b'1:     Which is: 4-byte object <00-00 00-00>\n'}
+[0.109667] (coordinate_transformer) StdoutLine: {'line': b'1: \n'}
+[0.109722] (coordinate_transformer) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:47: Failure\n'}
+[0.109786] (coordinate_transformer) StdoutLine: {'line': b'1: The difference between output.pose.position.x and 1.0 is 2, which exceeds 1e-6, where\n'}
+[0.109846] (coordinate_transformer) StdoutLine: {'line': b'1: output.pose.position.x evaluates to -1,\n'}
+[0.109906] (coordinate_transformer) StdoutLine: {'line': b'1: 1.0 evaluates to 1, and\n'}
+[0.109964] (coordinate_transformer) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[0.110022] (coordinate_transformer) StdoutLine: {'line': b'1: \n'}
+[0.110079] (coordinate_transformer) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:48: Failure\n'}
+[0.110137] (coordinate_transformer) StdoutLine: {'line': b'1: The difference between output.pose.position.y and 2.0 is 4, which exceeds 1e-6, where\n'}
+[0.110196] (coordinate_transformer) StdoutLine: {'line': b'1: output.pose.position.y evaluates to -2,\n'}
+[0.110254] (coordinate_transformer) StdoutLine: {'line': b'1: 2.0 evaluates to 2, and\n'}
+[0.110312] (coordinate_transformer) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[0.110370] (coordinate_transformer) StdoutLine: {'line': b'1: \n'}
+[0.110427] (coordinate_transformer) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:49: Failure\n'}
+[0.110484] (coordinate_transformer) StdoutLine: {'line': b'1: The difference between output.pose.position.z and 3.0 is 6, which exceeds 1e-6, where\n'}
+[0.110549] (coordinate_transformer) StdoutLine: {'line': b'1: output.pose.position.z evaluates to -3,\n'}
+[0.110610] (coordinate_transformer) StdoutLine: {'line': b'1: 3.0 evaluates to 3, and\n'}
+[0.110669] (coordinate_transformer) StdoutLine: {'line': b'1: 1e-6 evaluates to 9.9999999999999995e-07.\n'}
+[0.110728] (coordinate_transformer) StdoutLine: {'line': b'1: \n'}
+[0.110958] (coordinate_transformer) StdoutLine: {'line': b'1: [  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds (14 ms)\n'}
+[0.111018] (coordinate_transformer) StdoutLine: {'line': b'1: [ RUN      ] CoordinateTransformerTest.DirectTransformOutOfBounds\n'}
+[0.116219] (coordinate_transformer) StdoutLine: {'line': b'1: [       OK ] CoordinateTransformerTest.DirectTransformOutOfBounds (5 ms)\n'}
+[0.116541] (coordinate_transformer) StdoutLine: {'line': b'1: [ RUN      ] CoordinateTransformerTest.InverseTransform\n'}
+[0.120074] (coordinate_transformer) StdoutLine: {'line': b'1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:75: Failure\n'}
+[0.120213] (coordinate_transformer) StdoutLine: {'line': b'1: Expected equality of these values:\n'}
+[0.120268] (coordinate_transformer) StdoutLine: {'line': b'1:   s1\n'}
+[0.120319] (coordinate_transformer) StdoutLine: {'line': b'1:     Which is: 4-byte object <01-00 00-00>\n'}
+[0.120371] (coordinate_transformer) StdoutLine: {'line': b'1:   ResultStatus::SUCCESS\n'}
+[0.120421] (coordinate_transformer) StdoutLine: {'line': b'1:     Which is: 4-byte object <00-00 00-00>\n'}
+[0.120472] (coordinate_transformer) StdoutLine: {'line': b'1: \n'}
+[0.199753] (-) TimerEvent: {}
+[0.300334] (-) TimerEvent: {}
+[0.400796] (-) TimerEvent: {}
+[0.501244] (-) TimerEvent: {}
+[0.601719] (-) TimerEvent: {}
+[0.702154] (-) TimerEvent: {}
+[0.802607] (-) TimerEvent: {}
+[0.903025] (-) TimerEvent: {}
+[1.003472] (-) TimerEvent: {}
+[1.103909] (-) TimerEvent: {}
+[1.204345] (-) TimerEvent: {}
+[1.304776] (-) TimerEvent: {}
+[1.405231] (-) TimerEvent: {}
+[1.505773] (-) TimerEvent: {}
+[1.606349] (-) TimerEvent: {}
+[1.706805] (-) TimerEvent: {}
+[1.807381] (-) TimerEvent: {}
+[1.907960] (-) TimerEvent: {}
+[2.008507] (-) TimerEvent: {}
+[2.109102] (-) TimerEvent: {}
+[2.209688] (-) TimerEvent: {}
+[2.310266] (-) TimerEvent: {}
+[2.410869] (-) TimerEvent: {}
+[2.511437] (-) TimerEvent: {}
+[2.612038] (-) TimerEvent: {}
+[2.712629] (-) TimerEvent: {}
+[2.813049] (-) TimerEvent: {}
+[2.913630] (-) TimerEvent: {}
+[3.014203] (-) TimerEvent: {}
+[3.114771] (-) TimerEvent: {}
+[3.215352] (-) TimerEvent: {}
+[3.315958] (-) TimerEvent: {}
+[3.416594] (-) TimerEvent: {}
+[3.517172] (-) TimerEvent: {}
+[3.617765] (-) TimerEvent: {}
+[3.718182] (-) TimerEvent: {}
+[3.818627] (-) TimerEvent: {}
+[3.919048] (-) TimerEvent: {}
+[4.019462] (-) TimerEvent: {}
+[4.119875] (-) TimerEvent: {}
+[4.220312] (-) TimerEvent: {}
+[4.320844] (-) TimerEvent: {}
+[4.421290] (-) TimerEvent: {}
+[4.521728] (-) TimerEvent: {}
+[4.622176] (-) TimerEvent: {}
+[4.722621] (-) TimerEvent: {}
+[4.823063] (-) TimerEvent: {}
+[4.923625] (-) TimerEvent: {}
+[5.024084] (-) TimerEvent: {}
+[5.124640] (-) TimerEvent: {}
+[5.225098] (-) TimerEvent: {}
+[5.325667] (-) TimerEvent: {}
+[5.426240] (-) TimerEvent: {}
+[5.526821] (-) TimerEvent: {}
+[5.627399] (-) TimerEvent: {}
+[5.728001] (-) TimerEvent: {}
+[5.828595] (-) TimerEvent: {}
+[5.929169] (-) TimerEvent: {}
+[6.029751] (-) TimerEvent: {}
+[6.130318] (-) TimerEvent: {}
+[6.230915] (-) TimerEvent: {}
+[6.331499] (-) TimerEvent: {}
+[6.432133] (-) TimerEvent: {}
+[6.532744] (-) TimerEvent: {}
+[6.633333] (-) TimerEvent: {}
+[6.733945] (-) TimerEvent: {}
+[6.834581] (-) TimerEvent: {}
+[6.935186] (-) TimerEvent: {}
+[7.035738] (-) TimerEvent: {}
+[7.136310] (-) TimerEvent: {}
+[7.236852] (-) TimerEvent: {}
+[7.337272] (-) TimerEvent: {}
+[7.437707] (-) TimerEvent: {}
+[7.538152] (-) TimerEvent: {}
+[7.638591] (-) TimerEvent: {}
+[7.739021] (-) TimerEvent: {}
+[7.839447] (-) TimerEvent: {}
+[7.939863] (-) TimerEvent: {}
+[8.040305] (-) TimerEvent: {}
+[8.140758] (-) TimerEvent: {}
+[8.241192] (-) TimerEvent: {}
+[8.341626] (-) TimerEvent: {}
+[8.442061] (-) TimerEvent: {}
+[8.542628] (-) TimerEvent: {}
+[8.643079] (-) TimerEvent: {}
+[8.743557] (-) TimerEvent: {}
+[8.843986] (-) TimerEvent: {}
+[8.944598] (-) TimerEvent: {}
+[9.045029] (-) TimerEvent: {}
+[9.145591] (-) TimerEvent: {}
+[9.246012] (-) TimerEvent: {}
+[9.346618] (-) TimerEvent: {}
+[9.447059] (-) TimerEvent: {}
+[9.547645] (-) TimerEvent: {}
+[9.648228] (-) TimerEvent: {}
+[9.748824] (-) TimerEvent: {}
+[9.849416] (-) TimerEvent: {}
+[9.950031] (-) TimerEvent: {}
+[10.050637] (-) TimerEvent: {}
+[10.151192] (-) TimerEvent: {}
+[10.251781] (-) TimerEvent: {}
+[10.352332] (-) TimerEvent: {}
+[10.452908] (-) TimerEvent: {}
+[10.553491] (-) TimerEvent: {}
+[10.654098] (-) TimerEvent: {}
+[10.754684] (-) TimerEvent: {}
+[10.855290] (-) TimerEvent: {}
+[10.955827] (-) TimerEvent: {}
+[11.056375] (-) TimerEvent: {}
+[11.156826] (-) TimerEvent: {}
+[11.257250] (-) TimerEvent: {}
+[11.357634] (-) TimerEvent: {}
+[11.458062] (-) TimerEvent: {}
+[11.558473] (-) TimerEvent: {}
+[11.658772] (-) TimerEvent: {}
+[11.759201] (-) TimerEvent: {}
+[11.859708] (-) TimerEvent: {}
+[11.960157] (-) TimerEvent: {}
+[12.060610] (-) TimerEvent: {}
+[12.161059] (-) TimerEvent: {}
+[12.261497] (-) TimerEvent: {}
+[12.361931] (-) TimerEvent: {}
+[12.462385] (-) TimerEvent: {}
+[12.562841] (-) TimerEvent: {}
+[12.663296] (-) TimerEvent: {}
+[12.763776] (-) TimerEvent: {}
+[12.864391] (-) TimerEvent: {}
+[12.964992] (-) TimerEvent: {}
+[13.065455] (-) TimerEvent: {}
+[13.166035] (-) TimerEvent: {}
+[13.266646] (-) TimerEvent: {}
+[13.367201] (-) TimerEvent: {}
+[13.467898] (-) TimerEvent: {}
+[13.568481] (-) TimerEvent: {}
+[13.669078] (-) TimerEvent: {}
+[13.769635] (-) TimerEvent: {}
+[13.870228] (-) TimerEvent: {}
+[13.970807] (-) TimerEvent: {}
+[14.071408] (-) TimerEvent: {}
+[14.172014] (-) TimerEvent: {}
+[14.272630] (-) TimerEvent: {}
+[14.373195] (-) TimerEvent: {}
+[14.473644] (-) TimerEvent: {}
+[14.574145] (-) TimerEvent: {}
+[14.674684] (-) TimerEvent: {}
+[14.775211] (-) TimerEvent: {}
+[14.875725] (-) TimerEvent: {}
+[14.976165] (-) TimerEvent: {}
+[15.076617] (-) TimerEvent: {}
+[15.177049] (-) TimerEvent: {}
+[15.277479] (-) TimerEvent: {}
+[15.377898] (-) TimerEvent: {}
+[15.478344] (-) TimerEvent: {}
+[15.578765] (-) TimerEvent: {}
+[15.679338] (-) TimerEvent: {}
+[15.779776] (-) TimerEvent: {}
+[15.880244] (-) TimerEvent: {}
+[15.980660] (-) TimerEvent: {}
+[16.081110] (-) TimerEvent: {}
+[16.181548] (-) TimerEvent: {}
+[16.281954] (-) TimerEvent: {}
+[16.382399] (-) TimerEvent: {}
+[16.482842] (-) TimerEvent: {}
+[16.583280] (-) TimerEvent: {}
+[16.683840] (-) TimerEvent: {}
+[16.784360] (-) TimerEvent: {}
+[16.884931] (-) TimerEvent: {}
+[16.985498] (-) TimerEvent: {}
+[17.086094] (-) TimerEvent: {}
+[17.186664] (-) TimerEvent: {}
+[17.287263] (-) TimerEvent: {}
+[17.387865] (-) TimerEvent: {}
+[17.488480] (-) TimerEvent: {}
+[17.589046] (-) TimerEvent: {}
+[17.689636] (-) TimerEvent: {}
+[17.790184] (-) TimerEvent: {}
+[17.890754] (-) TimerEvent: {}
+[17.991325] (-) TimerEvent: {}
+[18.091920] (-) TimerEvent: {}
+[18.192494] (-) TimerEvent: {}
+[18.293057] (-) TimerEvent: {}
+[18.393610] (-) TimerEvent: {}
+[18.494052] (-) TimerEvent: {}
+[18.594596] (-) TimerEvent: {}
+[18.695050] (-) TimerEvent: {}
+[18.795492] (-) TimerEvent: {}
+[18.895950] (-) TimerEvent: {}
+[18.996393] (-) TimerEvent: {}
+[19.096829] (-) TimerEvent: {}
+[19.197250] (-) TimerEvent: {}
+[19.297695] (-) TimerEvent: {}
+[19.398149] (-) TimerEvent: {}
+[19.498606] (-) TimerEvent: {}
+[19.599062] (-) TimerEvent: {}
+[19.699533] (-) TimerEvent: {}
+[19.799967] (-) TimerEvent: {}
+[19.900422] (-) TimerEvent: {}
+[20.000872] (-) TimerEvent: {}
+[20.101323] (-) TimerEvent: {}
+[20.201927] (-) TimerEvent: {}
+[20.302497] (-) TimerEvent: {}
+[20.402954] (-) TimerEvent: {}
+[20.503409] (-) TimerEvent: {}
+[20.603858] (-) TimerEvent: {}
+[20.704450] (-) TimerEvent: {}
+[20.805031] (-) TimerEvent: {}
+[20.905634] (-) TimerEvent: {}
+[21.006197] (-) TimerEvent: {}
+[21.106778] (-) TimerEvent: {}
+[21.207350] (-) TimerEvent: {}
+[21.307944] (-) TimerEvent: {}
+[21.408543] (-) TimerEvent: {}
+[21.509126] (-) TimerEvent: {}
+[21.609723] (-) TimerEvent: {}
+[21.710318] (-) TimerEvent: {}
+[21.810921] (-) TimerEvent: {}
+[21.911551] (-) TimerEvent: {}
+[22.011928] (-) TimerEvent: {}
+[22.112311] (-) TimerEvent: {}
+[22.212768] (-) TimerEvent: {}
+[22.313211] (-) TimerEvent: {}
+[22.413715] (-) TimerEvent: {}
+[22.514154] (-) TimerEvent: {}
+[22.614617] (-) TimerEvent: {}
+[22.715073] (-) TimerEvent: {}
+[22.815651] (-) TimerEvent: {}
+[22.916100] (-) TimerEvent: {}
+[23.016574] (-) TimerEvent: {}
+[23.117036] (-) TimerEvent: {}
+[23.217504] (-) TimerEvent: {}
+[23.317967] (-) TimerEvent: {}
+[23.418407] (-) TimerEvent: {}
+[23.518998] (-) TimerEvent: {}
+[23.619453] (-) TimerEvent: {}
+[23.719915] (-) TimerEvent: {}
+[23.820368] (-) TimerEvent: {}
+[23.920968] (-) TimerEvent: {}
+[24.021550] (-) TimerEvent: {}
+[24.122015] (-) TimerEvent: {}
+[24.222441] (-) TimerEvent: {}
+[24.323022] (-) TimerEvent: {}
+[24.423609] (-) TimerEvent: {}
+[24.524183] (-) TimerEvent: {}
+[24.624751] (-) TimerEvent: {}
+[24.725335] (-) TimerEvent: {}
+[24.825948] (-) TimerEvent: {}
+[24.926554] (-) TimerEvent: {}
+[25.027153] (-) TimerEvent: {}
+[25.127767] (-) TimerEvent: {}
+[25.228357] (-) TimerEvent: {}
+[25.328976] (-) TimerEvent: {}
+[25.429586] (-) TimerEvent: {}
+[25.530187] (-) TimerEvent: {}
+[25.630730] (-) TimerEvent: {}
+[25.731182] (-) TimerEvent: {}
+[25.831644] (-) TimerEvent: {}
+[25.932093] (-) TimerEvent: {}
+[26.032574] (-) TimerEvent: {}
+[26.133023] (-) TimerEvent: {}
+[26.233570] (-) TimerEvent: {}
+[26.334007] (-) TimerEvent: {}
+[26.434468] (-) TimerEvent: {}
+[26.534907] (-) TimerEvent: {}
+[26.635463] (-) TimerEvent: {}
+[26.736064] (-) TimerEvent: {}
+[26.836658] (-) TimerEvent: {}
+[26.937225] (-) TimerEvent: {}
+[27.037802] (-) TimerEvent: {}
+[27.138384] (-) TimerEvent: {}
+[27.238996] (-) TimerEvent: {}
+[27.339624] (-) TimerEvent: {}
+[27.440088] (-) TimerEvent: {}
+[27.540673] (-) TimerEvent: {}
+[27.641261] (-) TimerEvent: {}
+[27.741882] (-) TimerEvent: {}
+[27.842460] (-) TimerEvent: {}
+[27.943083] (-) TimerEvent: {}
+[28.043663] (-) TimerEvent: {}
+[28.144241] (-) TimerEvent: {}
+[28.244788] (-) TimerEvent: {}
+[28.345417] (-) TimerEvent: {}
+[28.446099] (-) TimerEvent: {}
+[28.546686] (-) TimerEvent: {}
+[28.647273] (-) TimerEvent: {}
+[28.747871] (-) TimerEvent: {}
+[28.848451] (-) TimerEvent: {}
+[28.949018] (-) TimerEvent: {}
+[29.049460] (-) TimerEvent: {}
+[29.149965] (-) TimerEvent: {}
+[29.250551] (-) TimerEvent: {}
+[29.351108] (-) TimerEvent: {}
+[29.451655] (-) TimerEvent: {}
+[29.552210] (-) TimerEvent: {}
+[29.652779] (-) TimerEvent: {}
+[29.753246] (-) TimerEvent: {}
+[29.853786] (-) TimerEvent: {}
+[29.954347] (-) TimerEvent: {}
+[30.054836] (-) TimerEvent: {}
+[30.155415] (-) TimerEvent: {}
+[30.256016] (-) TimerEvent: {}
+[30.356584] (-) TimerEvent: {}
+[30.457193] (-) TimerEvent: {}
+[30.557782] (-) TimerEvent: {}
+[30.658372] (-) TimerEvent: {}
+[30.758985] (-) TimerEvent: {}
+[30.859606] (-) TimerEvent: {}
+[30.960215] (-) TimerEvent: {}
+[31.060788] (-) TimerEvent: {}
+[31.161367] (-) TimerEvent: {}
+[31.261965] (-) TimerEvent: {}
+[31.362556] (-) TimerEvent: {}
+[31.463155] (-) TimerEvent: {}
+[31.563728] (-) TimerEvent: {}
+[31.664297] (-) TimerEvent: {}
+[31.764917] (-) TimerEvent: {}
+[31.865558] (-) TimerEvent: {}
+[31.966156] (-) TimerEvent: {}
+[32.066746] (-) TimerEvent: {}
+[32.167322] (-) TimerEvent: {}
+[32.267892] (-) TimerEvent: {}
+[32.368337] (-) TimerEvent: {}
+[32.468776] (-) TimerEvent: {}
+[32.569211] (-) TimerEvent: {}
+[32.669710] (-) TimerEvent: {}
+[32.770162] (-) TimerEvent: {}
+[32.870630] (-) TimerEvent: {}
+[32.971066] (-) TimerEvent: {}
+[33.071535] (-) TimerEvent: {}
+[33.171975] (-) TimerEvent: {}
+[33.272415] (-) TimerEvent: {}
+[33.372846] (-) TimerEvent: {}
+[33.473304] (-) TimerEvent: {}
+[33.573756] (-) TimerEvent: {}
+[33.674215] (-) TimerEvent: {}
+[33.774763] (-) TimerEvent: {}
+[33.875227] (-) TimerEvent: {}
+[33.975805] (-) TimerEvent: {}
+[34.076390] (-) TimerEvent: {}
+[34.177014] (-) TimerEvent: {}
+[34.277634] (-) TimerEvent: {}
+[34.378208] (-) TimerEvent: {}
+[34.478816] (-) TimerEvent: {}
+[34.579402] (-) TimerEvent: {}
+[34.680020] (-) TimerEvent: {}
+[34.780657] (-) TimerEvent: {}
+[34.881243] (-) TimerEvent: {}
+[34.981871] (-) TimerEvent: {}
+[35.082350] (-) TimerEvent: {}
+[35.182958] (-) TimerEvent: {}
+[35.283581] (-) TimerEvent: {}
+[35.384185] (-) TimerEvent: {}
+[35.484775] (-) TimerEvent: {}
+[35.585359] (-) TimerEvent: {}
+[35.685959] (-) TimerEvent: {}
+[35.786395] (-) TimerEvent: {}
+[35.886943] (-) TimerEvent: {}
+[35.987466] (-) TimerEvent: {}
+[36.088023] (-) TimerEvent: {}
+[36.188590] (-) TimerEvent: {}
+[36.289151] (-) TimerEvent: {}
+[36.389666] (-) TimerEvent: {}
+[36.490142] (-) TimerEvent: {}
+[36.590644] (-) TimerEvent: {}
+[36.691064] (-) TimerEvent: {}
+[36.791629] (-) TimerEvent: {}
+[36.892205] (-) TimerEvent: {}
+[36.992758] (-) TimerEvent: {}
+[37.093302] (-) TimerEvent: {}
+[37.193858] (-) TimerEvent: {}
+[37.294427] (-) TimerEvent: {}
+[37.395093] (-) TimerEvent: {}
+[37.495673] (-) TimerEvent: {}
+[37.596223] (-) TimerEvent: {}
+[37.696774] (-) TimerEvent: {}
+[37.797377] (-) TimerEvent: {}
+[37.897968] (-) TimerEvent: {}
+[37.998561] (-) TimerEvent: {}
+[38.098982] (-) TimerEvent: {}
+[38.199599] (-) TimerEvent: {}
+[38.300162] (-) TimerEvent: {}
+[38.400745] (-) TimerEvent: {}
+[38.501325] (-) TimerEvent: {}
+[38.601917] (-) TimerEvent: {}
+[38.702488] (-) TimerEvent: {}
+[38.803089] (-) TimerEvent: {}
+[38.903667] (-) TimerEvent: {}
+[39.004263] (-) TimerEvent: {}
+[39.104714] (-) TimerEvent: {}
+[39.205267] (-) TimerEvent: {}
+[39.305724] (-) TimerEvent: {}
+[39.406147] (-) TimerEvent: {}
+[39.506597] (-) TimerEvent: {}
+[39.607043] (-) TimerEvent: {}
+[39.707488] (-) TimerEvent: {}
+[39.807939] (-) TimerEvent: {}
+[39.908387] (-) TimerEvent: {}
+[40.008852] (-) TimerEvent: {}
+[40.109297] (-) TimerEvent: {}
+[40.209757] (-) TimerEvent: {}
+[40.310214] (-) TimerEvent: {}
+[40.410645] (-) TimerEvent: {}
+[40.511100] (-) TimerEvent: {}
+[40.611573] (-) TimerEvent: {}
+[40.712001] (-) TimerEvent: {}
+[40.812465] (-) TimerEvent: {}
+[40.913082] (-) TimerEvent: {}
+[41.013659] (-) TimerEvent: {}
+[41.114246] (-) TimerEvent: {}
+[41.214764] (-) TimerEvent: {}
+[41.315344] (-) TimerEvent: {}
+[41.415803] (-) TimerEvent: {}
+[41.516248] (-) TimerEvent: {}
+[41.616837] (-) TimerEvent: {}
+[41.717415] (-) TimerEvent: {}
+[41.818009] (-) TimerEvent: {}
+[41.918607] (-) TimerEvent: {}
+[42.019199] (-) TimerEvent: {}
+[42.119769] (-) TimerEvent: {}
+[42.220297] (-) TimerEvent: {}
+[42.320829] (-) TimerEvent: {}
+[42.421408] (-) TimerEvent: {}
+[42.522014] (-) TimerEvent: {}
+[42.622483] (-) TimerEvent: {}
+[42.723116] (-) TimerEvent: {}
+[42.823594] (-) TimerEvent: {}
+[42.924104] (-) TimerEvent: {}
+[43.024659] (-) TimerEvent: {}
+[43.125192] (-) TimerEvent: {}
+[43.225657] (-) TimerEvent: {}
+[43.326193] (-) TimerEvent: {}
+[43.426748] (-) TimerEvent: {}
+[43.527214] (-) TimerEvent: {}
+[43.627781] (-) TimerEvent: {}
+[43.728236] (-) TimerEvent: {}
+[43.828796] (-) TimerEvent: {}
+[43.929354] (-) TimerEvent: {}
+[44.029976] (-) TimerEvent: {}
+[44.130588] (-) TimerEvent: {}
+[44.231142] (-) TimerEvent: {}
+[44.331725] (-) TimerEvent: {}
+[44.432312] (-) TimerEvent: {}
+[44.532926] (-) TimerEvent: {}
+[44.633514] (-) TimerEvent: {}
+[44.734121] (-) TimerEvent: {}
+[44.834690] (-) TimerEvent: {}
+[44.935206] (-) TimerEvent: {}
+[45.035766] (-) TimerEvent: {}
+[45.136329] (-) TimerEvent: {}
+[45.236921] (-) TimerEvent: {}
+[45.337547] (-) TimerEvent: {}
+[45.438137] (-) TimerEvent: {}
+[45.538747] (-) TimerEvent: {}
+[45.639335] (-) TimerEvent: {}
+[45.739957] (-) TimerEvent: {}
+[45.840576] (-) TimerEvent: {}
+[45.941148] (-) TimerEvent: {}
+[46.041721] (-) TimerEvent: {}
+[46.142300] (-) TimerEvent: {}
+[46.242775] (-) TimerEvent: {}
+[46.343214] (-) TimerEvent: {}
+[46.443720] (-) TimerEvent: {}
+[46.544238] (-) TimerEvent: {}
+[46.644805] (-) TimerEvent: {}
+[46.745345] (-) TimerEvent: {}
+[46.845932] (-) TimerEvent: {}
+[46.946513] (-) TimerEvent: {}
+[47.047063] (-) TimerEvent: {}
+[47.147626] (-) TimerEvent: {}
+[47.248190] (-) TimerEvent: {}
+[47.348776] (-) TimerEvent: {}
+[47.449361] (-) TimerEvent: {}
+[47.549969] (-) TimerEvent: {}
+[47.650607] (-) TimerEvent: {}
+[47.751196] (-) TimerEvent: {}
+[47.851791] (-) TimerEvent: {}
+[47.952399] (-) TimerEvent: {}
+[48.053011] (-) TimerEvent: {}
+[48.153629] (-) TimerEvent: {}
+[48.254203] (-) TimerEvent: {}
+[48.354794] (-) TimerEvent: {}
+[48.455334] (-) TimerEvent: {}
+[48.555969] (-) TimerEvent: {}
+[48.656617] (-) TimerEvent: {}
+[48.757205] (-) TimerEvent: {}
+[48.857758] (-) TimerEvent: {}
+[48.958329] (-) TimerEvent: {}
+[49.058942] (-) TimerEvent: {}
+[49.159567] (-) TimerEvent: {}
+[49.260162] (-) TimerEvent: {}
+[49.360684] (-) TimerEvent: {}
+[49.461196] (-) TimerEvent: {}
+[49.561732] (-) TimerEvent: {}
+[49.662175] (-) TimerEvent: {}
+[49.762693] (-) TimerEvent: {}
+[49.863142] (-) TimerEvent: {}
+[49.963635] (-) TimerEvent: {}
+[50.064072] (-) TimerEvent: {}
+[50.164487] (-) TimerEvent: {}
+[50.264920] (-) TimerEvent: {}
+[50.365474] (-) TimerEvent: {}
+[50.466056] (-) TimerEvent: {}
+[50.566634] (-) TimerEvent: {}
+[50.667208] (-) TimerEvent: {}
+[50.767762] (-) TimerEvent: {}
+[50.868348] (-) TimerEvent: {}
+[50.968918] (-) TimerEvent: {}
+[51.069512] (-) TimerEvent: {}
+[51.170067] (-) TimerEvent: {}
+[51.270540] (-) TimerEvent: {}
+[51.371133] (-) TimerEvent: {}
+[51.471727] (-) TimerEvent: {}
+[51.572290] (-) TimerEvent: {}
+[51.672868] (-) TimerEvent: {}
+[51.773452] (-) TimerEvent: {}
+[51.874067] (-) TimerEvent: {}
+[51.974601] (-) TimerEvent: {}
+[52.075078] (-) TimerEvent: {}
+[52.175632] (-) TimerEvent: {}
+[52.276216] (-) TimerEvent: {}
+[52.376807] (-) TimerEvent: {}
+[52.477404] (-) TimerEvent: {}
+[52.578022] (-) TimerEvent: {}
+[52.678678] (-) TimerEvent: {}
+[52.779199] (-) TimerEvent: {}
+[52.879723] (-) TimerEvent: {}
+[52.980169] (-) TimerEvent: {}
+[53.080629] (-) TimerEvent: {}
+[53.181066] (-) TimerEvent: {}
+[53.281502] (-) TimerEvent: {}
+[53.381952] (-) TimerEvent: {}
+[53.482395] (-) TimerEvent: {}
+[53.582824] (-) TimerEvent: {}
+[53.683246] (-) TimerEvent: {}
+[53.783671] (-) TimerEvent: {}
+[53.884102] (-) TimerEvent: {}
+[53.984653] (-) TimerEvent: {}
+[54.085104] (-) TimerEvent: {}
+[54.185666] (-) TimerEvent: {}
+[54.286115] (-) TimerEvent: {}
+[54.386583] (-) TimerEvent: {}
+[54.487162] (-) TimerEvent: {}
+[54.587626] (-) TimerEvent: {}
+[54.688086] (-) TimerEvent: {}
+[54.788657] (-) TimerEvent: {}
+[54.889234] (-) TimerEvent: {}
+[54.989805] (-) TimerEvent: {}
+[55.090323] (-) TimerEvent: {}
+[55.190921] (-) TimerEvent: {}
+[55.291499] (-) TimerEvent: {}
+[55.392096] (-) TimerEvent: {}
+[55.492566] (-) TimerEvent: {}
+[55.593129] (-) TimerEvent: {}
+[55.693715] (-) TimerEvent: {}
+[55.794294] (-) TimerEvent: {}
+[55.894890] (-) TimerEvent: {}
+[55.995454] (-) TimerEvent: {}
+[56.096048] (-) TimerEvent: {}
+[56.196634] (-) TimerEvent: {}
+[56.297198] (-) TimerEvent: {}
+[56.397632] (-) TimerEvent: {}
+[56.498049] (-) TimerEvent: {}
+[56.598609] (-) TimerEvent: {}
+[56.699149] (-) TimerEvent: {}
+[56.799695] (-) TimerEvent: {}
+[56.900193] (-) TimerEvent: {}
+[57.000715] (-) TimerEvent: {}
+[57.101159] (-) TimerEvent: {}
+[57.201632] (-) TimerEvent: {}
+[57.302071] (-) TimerEvent: {}
+[57.402511] (-) TimerEvent: {}
+[57.503085] (-) TimerEvent: {}
+[57.603558] (-) TimerEvent: {}
+[57.703984] (-) TimerEvent: {}
+[57.804435] (-) TimerEvent: {}
+[57.905018] (-) TimerEvent: {}
+[58.005620] (-) TimerEvent: {}
+[58.106078] (-) TimerEvent: {}
+[58.206644] (-) TimerEvent: {}
+[58.307108] (-) TimerEvent: {}
+[58.407692] (-) TimerEvent: {}
+[58.508279] (-) TimerEvent: {}
+[58.608881] (-) TimerEvent: {}
+[58.709447] (-) TimerEvent: {}
+[58.810049] (-) TimerEvent: {}
+[58.910628] (-) TimerEvent: {}
+[59.011239] (-) TimerEvent: {}
+[59.111934] (-) TimerEvent: {}
+[59.212377] (-) TimerEvent: {}
+[59.312962] (-) TimerEvent: {}
+[59.413574] (-) TimerEvent: {}
+[59.514161] (-) TimerEvent: {}
+[59.614745] (-) TimerEvent: {}
+[59.715359] (-) TimerEvent: {}
+[59.815991] (-) TimerEvent: {}
+[59.916561] (-) TimerEvent: {}
+[60.017097] (-) TimerEvent: {}
+[60.099869] (coordinate_transformer) StdoutLine: {'line': b'1/1 Test #1: test_coordinate_transformer ......***Timeout  60.07 sec\n'}
+[60.100075] (coordinate_transformer) StdoutLine: {'line': b'\n'}
+[60.100146] (coordinate_transformer) StdoutLine: {'line': b'0% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 1\n'}
+[60.100203] (coordinate_transformer) StdoutLine: {'line': b'\n'}
+[60.100271] (coordinate_transformer) StdoutLine: {'line': b'Label Time Summary:\n'}
+[60.100338] (coordinate_transformer) StdoutLine: {'line': b'gtest    =  60.07 sec*proc (1 test)\n'}
+[60.100426] (coordinate_transformer) StdoutLine: {'line': b'\n'}
+[60.100507] (coordinate_transformer) StdoutLine: {'line': b'Total Test time (real) =  60.07 sec\n'}
+[60.100577] (coordinate_transformer) StdoutLine: {'line': b'\n'}
+[60.100632] (coordinate_transformer) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[60.100685] (coordinate_transformer) StdoutLine: {'line': b'\t\x1b[0;31m  1 - test_coordinate_transformer (Timeout)\x1b[0;0m\n'}
+[60.101402] (coordinate_transformer) StderrLine: {'line': b'Errors while running CTest\n'}
+[60.101476] (coordinate_transformer) StderrLine: {'line': b'Output from these tests are in: /home/user/ros2_ws/build/coordinate_transformer/Testing/Temporary/LastTest.log\n'}
+[60.101541] (coordinate_transformer) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[60.103827] (coordinate_transformer) CommandEnded: {'returncode': 8}
+[60.104562] (coordinate_transformer) TestFailure: {'identifier': 'coordinate_transformer'}
+[60.104603] (coordinate_transformer) JobEnded: {'identifier': 'coordinate_transformer', 'rc': 0}
+[60.105304] (-) EventReactorShutdown: {}

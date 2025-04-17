@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '8': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,63 @@
+Start testing: Apr 17 23:27 +05
+----------------------------------------------------------
+1/1 Testing: test_coordinate_transformer
+1/1 Test: test_coordinate_transformer
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml" "--package-name" "coordinate_transformer" "--output-file" "/home/user/ros2_ws/build/coordinate_transformer/ament_cmake_gtest/test_coordinate_transformer.txt" "--command" "/home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer" "--gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml"
+Directory: /home/user/ros2_ws/build/coordinate_transformer
+"test_coordinate_transformer" start time: Apr 17 23:27 +05
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/user/ros2_ws/build/coordinate_transformer':
+ - /home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer --gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from CoordinateTransformerTest
+[ RUN      ] CoordinateTransformerTest.DirectTransformWithinBounds
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:46: Failure
+Expected equality of these values:
+  status
+    Which is: 4-byte object <01-00 00-00>
+  ResultStatus::SUCCESS
+    Which is: 4-byte object <00-00 00-00>
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:47: Failure
+The difference between output.pose.position.x and 1.0 is 2, which exceeds 1e-6, where
+output.pose.position.x evaluates to -1,
+1.0 evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:48: Failure
+The difference between output.pose.position.y and 2.0 is 4, which exceeds 1e-6, where
+output.pose.position.y evaluates to -2,
+2.0 evaluates to 2, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:49: Failure
+The difference between output.pose.position.z and 3.0 is 6, which exceeds 1e-6, where
+output.pose.position.z evaluates to -3,
+3.0 evaluates to 3, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds (14 ms)
+[ RUN      ] CoordinateTransformerTest.DirectTransformOutOfBounds
+[       OK ] CoordinateTransformerTest.DirectTransformOutOfBounds (5 ms)
+[ RUN      ] CoordinateTransformerTest.InverseTransform
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:75: Failure
+Expected equality of these values:
+  s1
+    Which is: 4-byte object <01-00 00-00>
+  ResultStatus::SUCCESS
+    Which is: 4-byte object <00-00 00-00>
+
+<end of output>
+Test time =  60.07 sec
+----------------------------------------------------------
+Test Failed.
+"test_coordinate_transformer" end time: Apr 17 23:28 +05
+"test_coordinate_transformer" time elapsed: 00:01:00
+----------------------------------------------------------
+
+End testing: Apr 17 23:28 +05
+
+gtest =  60.07 sec*proc
+

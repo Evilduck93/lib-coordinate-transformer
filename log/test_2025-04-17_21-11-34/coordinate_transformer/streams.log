@@ -1,0 +1,93 @@
+[0.031s] Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -V
+[0.046s] UpdateCTestConfiguration  from :/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini
+[0.046s] Parse Config file:/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini
+[0.046s]    Site: LT-PROMOBOT-22
+[0.047s]    Build name: (empty)
+[0.047s]  Add coverage exclude regular expressions.
+[0.047s] Create new tag: 20250417-1611 - Experimental
+[0.047s] UpdateCTestConfiguration  from :/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini
+[0.047s] Parse Config file:/home/user/ros2_ws/build/coordinate_transformer/CTestConfiguration.ini
+[0.047s] Test project /home/user/ros2_ws/build/coordinate_transformer
+[0.048s] Constructing a list of tests
+[0.048s] Done constructing a list of tests
+[0.048s] Updating test list for fixtures
+[0.048s] Added 0 tests to meet fixture requirements
+[0.048s] Checking test dependency graph...
+[0.048s] Checking test dependency graph end
+[0.048s] test 1
+[0.048s]     Start 1: test_coordinate_transformer
+[0.048s] 
+[0.049s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml" "--package-name" "coordinate_transformer" "--output-file" "/home/user/ros2_ws/build/coordinate_transformer/ament_cmake_gtest/test_coordinate_transformer.txt" "--command" "/home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer" "--gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml"
+[0.049s] 1: Working Directory: /home/user/ros2_ws/build/coordinate_transformer
+[0.049s] 1: Test timeout computed to be: 60
+[0.124s] 1: -- run_test.py: invoking following command in '/home/user/ros2_ws/build/coordinate_transformer':
+[0.124s] 1:  - /home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer --gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml
+[0.147s] 1: [==========] Running 3 tests from 1 test suite.
+[0.147s] 1: [----------] Global test environment set-up.
+[0.147s] 1: [----------] 3 tests from CoordinateTransformerTest
+[0.148s] 1: [ RUN      ] CoordinateTransformerTest.DirectTransformWithinBounds
+[0.164s] 1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:46: Failure
+[0.164s] 1: Expected equality of these values:
+[0.164s] 1:   status
+[0.164s] 1:     Which is: 4-byte object <01-00 00-00>
+[0.164s] 1:   ResultStatus::SUCCESS
+[0.164s] 1:     Which is: 4-byte object <00-00 00-00>
+[0.164s] 1: 
+[0.165s] 1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:47: Failure
+[0.165s] 1: The difference between output.pose.position.x and 1.0 is 2, which exceeds 1e-6, where
+[0.165s] 1: output.pose.position.x evaluates to -1,
+[0.165s] 1: 1.0 evaluates to 1, and
+[0.165s] 1: 1e-6 evaluates to 9.9999999999999995e-07.
+[0.165s] 1: 
+[0.165s] 1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:48: Failure
+[0.165s] 1: The difference between output.pose.position.y and 2.0 is 4, which exceeds 1e-6, where
+[0.166s] 1: output.pose.position.y evaluates to -2,
+[0.166s] 1: 2.0 evaluates to 2, and
+[0.166s] 1: 1e-6 evaluates to 9.9999999999999995e-07.
+[0.166s] 1: 
+[0.166s] 1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:49: Failure
+[0.166s] 1: The difference between output.pose.position.z and 3.0 is 6, which exceeds 1e-6, where
+[0.166s] 1: output.pose.position.z evaluates to -3,
+[0.166s] 1: 3.0 evaluates to 3, and
+[0.166s] 1: 1e-6 evaluates to 9.9999999999999995e-07.
+[0.166s] 1: 
+[0.167s] 1: [  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds (20 ms)
+[0.167s] 1: [ RUN      ] CoordinateTransformerTest.DirectTransformOutOfBounds
+[0.175s] 1: [       OK ] CoordinateTransformerTest.DirectTransformOutOfBounds (7 ms)
+[0.175s] 1: [ RUN      ] CoordinateTransformerTest.InverseTransform
+[0.179s] 1: /home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:75: Failure
+[0.179s] 1: Expected equality of these values:
+[0.179s] 1:   s1
+[0.179s] 1:     Which is: 4-byte object <01-00 00-00>
+[0.179s] 1:   ResultStatus::SUCCESS
+[0.179s] 1:     Which is: 4-byte object <00-00 00-00>
+[0.179s] 1: 
+[0.181s] 1: [  FAILED  ] CoordinateTransformerTest.InverseTransform (6 ms)
+[0.181s] 1: [----------] 3 tests from CoordinateTransformerTest (33 ms total)
+[0.181s] 1: 
+[0.181s] 1: [----------] Global test environment tear-down
+[0.181s] 1: [==========] 3 tests from 1 test suite ran. (33 ms total)
+[0.181s] 1: [  PASSED  ] 1 test.
+[0.182s] 1: [  FAILED  ] 2 tests, listed below:
+[0.182s] 1: [  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds
+[0.182s] 1: [  FAILED  ] CoordinateTransformerTest.InverseTransform
+[0.182s] 1: 
+[0.182s] 1:  2 FAILED TESTS
+[0.288s] 1: -- run_test.py: return code 1
+[0.289s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml'
+[0.289s] 1: -- run_test.py: verify result file '/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml'
+[0.313s] 1/1 Test #1: test_coordinate_transformer ......***Failed    0.27 sec
+[0.314s] 
+[0.314s] 0% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 1
+[0.315s] 
+[0.315s] Label Time Summary:
+[0.315s] gtest    =   0.27 sec*proc (1 test)
+[0.315s] 
+[0.315s] Total Test time (real) =   0.27 sec
+[0.315s] 
+[0.316s] The following tests FAILED:
+[0.316s] 	[0;31m  1 - test_coordinate_transformer (Failed)[0;0m
+[0.317s] Errors while running CTest
+[0.317s] Output from these tests are in: /home/user/ros2_ws/build/coordinate_transformer/Testing/Temporary/LastTest.log
+[0.317s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.321s] Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '8': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process -V

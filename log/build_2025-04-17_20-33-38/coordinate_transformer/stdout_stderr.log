@@ -1,0 +1,132 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.9 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.9 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/user/ros2_ws/build/coordinate_transformer
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] Built target coordinate_transformer_lib
+[ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 62%] Built target gtest_main
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 87%] [32mBuilding CXX object CMakeFiles/test_coordinate_transformer.dir/test/test_coordinate_transformer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_coordinate_transformer[0m
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): warning: relocation against `_ZTVN4YAML9ExceptionE' in read-only section `.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «CoordinateTransformer::loadConfig(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)»:
+coordinate_transformer.cpp:(.text+0xccc): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadConversion::BadConversion(YAML::Mark const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7b): undefined reference to `vtable for YAML::BadConversion'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::memory_holder::create_node()»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node_ref::mark_defined()»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node_ref::set_null()»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node_ref::begin()»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node_ref::end()»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::Node::EnsureNodeExists() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x46): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x50): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::Node::Mark() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::Node::Type() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()»:
+coordinate_transformer.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::Node::Scalar[abi:cxx11]() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x6b): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x75): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «double YAML::Node::as<double>() const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x67): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x71): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::TypedBadConversion<double>::~TypedBadConversion()»:
+coordinate_transformer.cpp:(.text._ZN4YAML18TypedBadConversionIdED2Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::get<char [11]>(char const (&) [11], std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x117): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x121): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x20f): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node* YAML::detail::node_data::get<char [13]>(char const (&) [13], std::shared_ptr<YAML::detail::memory_holder>) const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA13_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA13_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10b): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA13_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA13_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x115): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node* YAML::detail::node_data::get<char [12]>(char const (&) [12], std::shared_ptr<YAML::detail::memory_holder>) const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10b): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x115): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::get<int>(int const&, std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x117): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x121): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x20f): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node* YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>) const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10b): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x115): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::get<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x117): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x121): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x20f): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node* YAML::detail::node_data::get<char [4]>(char const (&) [4], std::shared_ptr<YAML::detail::memory_holder>) const»:
+coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10b): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: coordinate_transformer.cpp:(.text._ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x115): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [11]>(YAML::Mark const&, char const (&) [11])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA11_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA11_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::convert_to_node<char [11]>(char const (&) [11], std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA11_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [13]>(YAML::Mark const&, char const (&) [13])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA13_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA13_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [12]>(YAML::Mark const&, char const (&) [12])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA12_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA12_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<int>(YAML::Mark const&, int const&)»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IiEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IiEERKNS_4MarkERKT_]+0x66): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::convert_to_node<int>(int const&, std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [9]>(YAML::Mark const&, char const (&) [9])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA9_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA9_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [7]>(YAML::Mark const&, char const (&) [7])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA7_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA7_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::detail::node& YAML::detail::node_data::convert_to_node<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)»:
+coordinate_transformer.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o): в функции «YAML::BadSubscript::BadSubscript<char [4]>(YAML::Mark const&, char const (&) [4])»:
+coordinate_transformer.cpp:(.text._ZN4YAML12BadSubscriptC2IA4_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA4_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o):(.data.rel.ro._ZTIN4YAML18TypedBadConversionIdEE[_ZTIN4YAML18TypedBadConversionIdEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: libcoordinate_transformer_lib.a(coordinate_transformer.cpp.o):(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/test_coordinate_transformer.dir/build.make:212: test_coordinate_transformer] Ошибка 1
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/test_coordinate_transformer.dir/all] Ошибка 2
+gmake: *** [Makefile:146: all] Ошибка 2

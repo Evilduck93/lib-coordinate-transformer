@@ -65,10 +65,14 @@
  }
  
  void CoordinateTransformer::addTransform(const geometry_msgs::msg::TransformStamped& transform)
- {
-   // В данной реализации метод-заглушка.
-   (void)transform;
- }
+{
+  try {
+    tf_buffer_.setTransform(transform, "test", true);  // Используем tf_buffer_ вместо buffer_
+  } catch (const tf2::TransformException & ex) {
+    RCLCPP_ERROR(node_->get_logger(), "Failed to add transform: %s", ex.what());
+  }
+}
+
  
  void CoordinateTransformer::setBounds(
    const std::string& frame_id,

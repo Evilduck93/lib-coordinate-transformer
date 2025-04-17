@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/coordinate_transformer
+[0.103s] -- The C compiler identification is GNU 13.3.0
+[0.225s] -- The CXX compiler identification is GNU 13.3.0
+[0.263s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.494s] -- Detecting C compile features - done
+[0.516s] -- Detecting CXX compiler ABI info
+[0.727s] -- Detecting CXX compiler ABI info - done
+[0.736s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.736s] -- Detecting CXX compile features
+[0.737s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.030s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.257s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.346s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.375s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.579s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.590s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.791s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.938s] -- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+[1.993s] -- Found tf2_ros: 0.36.9 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.181s] -- Found tf2_geometry_msgs: 0.36.9 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.218s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.220s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.220s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.247s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.370s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.380s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.589s] -- Found Threads: TRUE  
+[2.620s] -- Configuring done (2.6s)
+[2.654s] -- Generating done (0.0s)
+[2.659s] -- Build files have been written to: /home/user/ros2_ws/build/coordinate_transformer
+[2.672s] Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/coordinate_transformer -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/coordinate_transformer
+[2.673s] Invoking command in '/home/user/ros2_ws/build/coordinate_transformer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/coordinate_transformer -- -j8 -l8
+[2.764s] [ 50%] Built target gtest
+[2.764s] [ 50%] Built target gtest_main
+[2.771s] [ 62%] [32mBuilding CXX object CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o[0m
+[5.328s] [01m[K/home/user/ros2_ws/src/coordinate_transformer/src/coordinate_transformer.cpp:[m[K In member function ‘[01m[Kvoid CoordinateTransformer::[01;32m[KaddTransform[m[K(const geometry_msgs::msg::TransformStamped&)[m[K’:
+[5.328s] [01m[K/home/user/ros2_ws/src/coordinate_transformer/src/coordinate_transformer.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf_buffer_[m[K’?
+[5.328s]    70 |     [01;31m[Kbuffer_[m[K.setTransform(transform, "test", true);  // Здесь используем параметр 'transform'
+[5.328s]       |     [01;31m[K^~~~~~~[m[K
+[5.328s]       |     [32m[Ktf_buffer_[m[K
+[6.332s] gmake[2]: *** [CMakeFiles/coordinate_transformer_lib.dir/build.make:76: CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o] Ошибка 1
+[6.332s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/coordinate_transformer_lib.dir/all] Ошибка 2
+[6.333s] gmake: *** [Makefile:146: all] Ошибка 2
+[6.335s] Invoked command in '/home/user/ros2_ws/build/coordinate_transformer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/coordinate_transformer -- -j8 -l8

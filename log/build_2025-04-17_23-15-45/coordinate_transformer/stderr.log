@@ -1,0 +1,52 @@
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-printers.h:122[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-matchers.h:49[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h:47[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-death-test.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:65[m[K,
+                 from [01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:1[m[K:
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:[m[K In member function ‘[01m[Kvirtual void CoordinateTransformerTest::[01;32m[KSetUp[m[K()[m[K’:
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:27:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<CoordinateTransformer, __gnu_cxx::_S_atomic, false, false>::element_type = class CoordinateTransformer[m[K’ {aka ‘[01m[Kclass CoordinateTransformer[m[K’} has no member named ‘[01m[KgetBuffer[m[K’
+   27 |     ASSERT_TRUE(transformer_->[01;31m[KgetBuffer[m[K()->canTransform(
+      |                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:31:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+   31 |     geometry_msgs::msg::Point min{0,0,0[01;31m[K}[m[K, max{5,5,5};
+      |                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/user/ros2_ws/src/coordinate_transformer/include/coordinate_transformer/coordinate_transformer.hpp:13[m[K,
+                 from [01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:3[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::[01;32m[KPoint_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:50:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:39:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::[01;32m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   39 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:39:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::[01;32m[KPoint_[m[K(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+   35 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::[01;32m[KPoint_[m[K(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:31:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::Point_(<brace-enclosed initializer list>)[m[K’
+   31 |     geometry_msgs::msg::Point min{0,0,0}, max{5,5,5[01;31m[K}[m[K;
+      |                                                    [01;31m[K^[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:50:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::[01;32m[KPoint_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   50 |   explicit [01;36m[KPoint_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:50:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:39:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Point_<ContainerAllocator>::[01;32m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   39 |   explicit [01;36m[KPoint_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:39:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::[01;32m[KPoint_[m[K(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+   35 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >::[01;32m[KPoint_[m[K(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/test_coordinate_transformer.dir/build.make:76: CMakeFiles/test_coordinate_transformer.dir/test/test_coordinate_transformer.cpp.o] Ошибка 1
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/test_coordinate_transformer.dir/all] Ошибка 2
+gmake: *** [Makefile:146: all] Ошибка 2

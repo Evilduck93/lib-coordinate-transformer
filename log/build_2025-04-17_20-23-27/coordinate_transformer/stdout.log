@@ -1,0 +1,24 @@
+[100%] Built target coordinate_transformer_lib
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/lib/libcoordinate_transformer_lib.a
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/include
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer/gcode_parser.hpp
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/include/coordinate_transformer/coordinate_transformer.hpp
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/config/transforms.yaml
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/package_run_dependencies/coordinate_transformer
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/parent_prefix_path/coordinate_transformer
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/ament_index/resource_index/packages/coordinate_transformer
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/cmake/coordinate_transformerConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/coordinate_transformer/share/coordinate_transformer/package.xml

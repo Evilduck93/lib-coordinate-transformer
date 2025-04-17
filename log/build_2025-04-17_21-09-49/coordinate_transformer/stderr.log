@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/src/coordinate_transformer.cpp:[m[K In member function ‘[01m[Kvoid CoordinateTransformer::[01;32m[KaddTransform[m[K(const geometry_msgs::msg::TransformStamped&)[m[K’:
+[01m[K/home/user/ros2_ws/src/coordinate_transformer/src/coordinate_transformer.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf_buffer_[m[K’?
+   70 |     [01;31m[Kbuffer_[m[K.setTransform(transform, "test", true);  // Здесь используем параметр 'transform'
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Ktf_buffer_[m[K
+gmake[2]: *** [CMakeFiles/coordinate_transformer_lib.dir/build.make:76: CMakeFiles/coordinate_transformer_lib.dir/src/coordinate_transformer.cpp.o] Ошибка 1
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/coordinate_transformer_lib.dir/all] Ошибка 2
+gmake: *** [Makefile:146: all] Ошибка 2

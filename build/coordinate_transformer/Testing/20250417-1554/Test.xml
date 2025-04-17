@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250417-1554-Experimental"
+	Name="LT-PROMOBOT-22"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="LT-PROMOBOT-22"
+	OSRelease="6.11.0-21-generic"
+	OSVersion="#21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="140"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="7705"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1163.66"
+	>
+	<Testing>
+		<StartDateTime>Apr 17 20:54 +05</StartDateTime>
+		<StartTestTime>1744905295</StartTestTime>
+		<TestList>
+			<Test>./test_coordinate_transformer</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>test_coordinate_transformer</Name>
+			<Path>.</Path>
+			<FullName>./test_coordinate_transformer</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml" "--package-name" "coordinate_transformer" "--output-file" "/home/user/ros2_ws/build/coordinate_transformer/ament_cmake_gtest/test_coordinate_transformer.txt" "--command" "/home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer" "--gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.35668</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml" "--package-name" "coordinate_transformer" "--output-file" "/home/user/ros2_ws/build/coordinate_transformer/ament_cmake_gtest/test_coordinate_transformer.txt" "--command" "/home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer" "--gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/user/ros2_ws/build/coordinate_transformer':
+ - /home/user/ros2_ws/build/coordinate_transformer/test_coordinate_transformer --gtest_output=xml:/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from CoordinateTransformerTest
+[ RUN      ] CoordinateTransformerTest.DirectTransformWithinBounds
+[ERROR] [1744905296.801851861] [test_transformer_node]: Ошибка преобразования: "frame_b" passed to lookupTransform argument target_frame does not exist. 
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:46: Failure
+Expected equality of these values:
+  status
+    Which is: 4-byte object &lt;02-00 00-00&gt;
+  ResultStatus::SUCCESS
+    Which is: 4-byte object &lt;00-00 00-00&gt;
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:47: Failure
+The difference between output.pose.position.x and 1.0 is 1, which exceeds 1e-6, where
+output.pose.position.x evaluates to 0,
+1.0 evaluates to 1, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:48: Failure
+The difference between output.pose.position.y and 2.0 is 2, which exceeds 1e-6, where
+output.pose.position.y evaluates to 0,
+2.0 evaluates to 2, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:49: Failure
+The difference between output.pose.position.z and 3.0 is 3, which exceeds 1e-6, where
+output.pose.position.z evaluates to 0,
+3.0 evaluates to 3, and
+1e-6 evaluates to 9.9999999999999995e-07.
+
+[  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds (1048 ms)
+[ RUN      ] CoordinateTransformerTest.DirectTransformOutOfBounds
+[ERROR] [1744905297.823976068] [test_transformer_node]: Ошибка преобразования: "frame_b" passed to lookupTransform argument target_frame does not exist. 
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:62: Failure
+Expected equality of these values:
+  status
+    Which is: 4-byte object &lt;02-00 00-00&gt;
+  ResultStatus::OUT_OF_BOUNDS
+    Which is: 4-byte object &lt;01-00 00-00&gt;
+
+[  FAILED  ] CoordinateTransformerTest.DirectTransformOutOfBounds (1020 ms)
+[ RUN      ] CoordinateTransformerTest.InverseTransform
+[ERROR] [1744905298.846576517] [test_transformer_node]: Ошибка преобразования: "frame_b" passed to lookupTransform argument target_frame does not exist. 
+/home/user/ros2_ws/src/coordinate_transformer/test/test_coordinate_transformer.cpp:75: Failure
+Expected equality of these values:
+  s1
+    Which is: 4-byte object &lt;02-00 00-00&gt;
+  ResultStatus::SUCCESS
+    Which is: 4-byte object &lt;00-00 00-00&gt;
+
+[  FAILED  ] CoordinateTransformerTest.InverseTransform (1024 ms)
+[----------] 3 tests from CoordinateTransformerTest (3093 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (3093 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] CoordinateTransformerTest.DirectTransformWithinBounds
+[  FAILED  ] CoordinateTransformerTest.DirectTransformOutOfBounds
+[  FAILED  ] CoordinateTransformerTest.InverseTransform
+
+ 3 FAILED TESTS
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml'
+-- run_test.py: verify result file '/home/user/ros2_ws/build/coordinate_transformer/test_results/coordinate_transformer/test_coordinate_transformer.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Apr 17 20:54 +05</EndDateTime>
+		<EndTestTime>1744905298</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
